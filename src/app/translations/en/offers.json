@@ -1,0 +1,12 @@
+{
+    "open_offer": "Open Offer",
+    "dialog": {
+        "date_and_time": "Date & Time",
+        "description": "Description",
+        "location": "Location",
+        "read_more": "Read more",
+        "read_less": "Read less",
+        "get_directions": "Get Directions",
+        "rsvp": "RSVP"
+    }
+}

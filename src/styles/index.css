@@ -1,0 +1,49 @@
+@import 'material.css';
+@import 'leaflet.css';
+
+@font-face {
+	font-family: 'helveticaregular';
+	src: url("./fonts/helvetica/helvetica-webfont.woff2") format("woff2"), url("./fonts/helvetica/helvetica-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'helveticabold';
+	src: url("./fonts/helvetica/helvetica-bold-webfont.woff2") format("woff2"), url("./fonts/helvetica/helvetica-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+.dialog,
+body {
+    font-family: 'helveticaregular';
+}
+
+.dialog-body div {
+    margin-bottom: 20px;
+}
+
+.dialog-body .truncate {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dialog-body a {
+    color: red;
+    font-size: 13px;
+    text-decoration: none;
+    color: #FF697B;
+}
+
+.dialog-body h5 {
+    font-weight: bold;
+    font-family: 'helveticabold';
+    font-size: 12px;
+    margin: 0;
+}
+
+.dialog-body p {
+    font-size: 12px;
+    margin: 0;
+}
